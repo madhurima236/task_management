@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import Header from "./Header";
-import TaskForm from "./TaskForm";
-import TaskList from "./TaskList";
-import TaskStatusToggle from "./TaskStatusToggle";
+import TaskForm from "./components/taskForm";
+import TaskList from "./components/taskList";
 
 function App() {
   const [tasks, setTasks] = useState([]);
@@ -25,7 +23,6 @@ function App() {
 
   return (
     <div className="app">
-      <Header />
       <TaskForm onAddTask={addTask} />
       <TaskList
         tasks={tasks}

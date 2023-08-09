@@ -1,5 +1,5 @@
 import React from "react";
-import {TaskItem} from "./taskItem";
+import TaskItem from "./taskItem";
 
 function TaskList({ tasks, onUpdateTaskStatus, onDeleteTask }) {
 
@@ -16,4 +16,6 @@ function TaskList({ tasks, onUpdateTaskStatus, onDeleteTask }) {
         </div>
     )
 }
+
+export default TaskList;
 

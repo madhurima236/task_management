@@ -1,5 +1,5 @@
 import React from "react";
-import { TaskStatusToggle } from "./taskStatusToggle";
+import TaskStatusToggle from "./taskStatusToggle";
 
 function TaskItem({ task, onUpdateTaskStatus, onDeleteTask }) {
   return (
